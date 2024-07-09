@@ -1,0 +1,75 @@
+.header{
+    background-image: url('/hero.svg');
+    max-width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.herocta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.heroctaWrapper{
+    width: 100%;
+}
+
+.herotext{
+    font-weight: 700;
+    line-height: 57.6px;
+    font-size: 48px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    max-width: 658px;
+}
+.herodetails{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color:#ffffff;
+    margin-bottom: 30px;
+}
+.button{
+    width: 195px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 14px, 18px, 14px, 18px;
+    background-color: #383452;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.mobileheader{
+    display: none;
+   max-width: 398px;
+    margin: 0 auto;
+}
+@media (max-width: 600px) {
+    .header{
+        display: none;
+    }
+    .mobileheader{
+        display: block;
+    }
+    
+}
+.mobileherotext{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+.mobileherotext span{
+    color: #794471;
+}
+.mobileherotextdetail{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #1C1A26;
+}

@@ -1,0 +1,129 @@
+.checkoutbox{
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    
+}
+.checkoutpage{
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.flex1{
+    display: flex;
+    align-items: center;
+}
+.checkoutbox1{
+    max-width: 780px;
+    padding-top: 16px;
+    flex-grow: 1;
+    margin-bottom: 16px;
+}
+.padding{
+    padding: 16px, 0px, 16px, 0px;
+}
+.deliveryinfo{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1A26;
+}
+.deliverysection{
+    border: 1px solid;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pickupinfo{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C1A26;
+
+}
+.quan{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 8px;
+}
+.quant{
+    color: #794471;
+}
+.pay{
+    margin-left: 16px;
+}
+.paywith{
+    margin-left: 27px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+
+.receipt{
+    width: 398px;
+    box-shadow: 0px 1px 3px 0px #0000004D;
+    box-shadow: 0px 4px 8px 3px #00000026;
+    background-color: #ffffff;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-right: 16px;
+    margin: 0px;
+    height: 396px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.checkoutpoint{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #1C1A26;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.receiptline{
+    margin: 0px;
+}
+.charges{
+    text-align: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #1C1A26;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.button{
+    border-radius: 8px;
+    background-color: #383452;
+    padding: 14px, 18px, 14px, 18px;
+    width: 100%;
+    height: 48px;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+.proceedtext{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.proceedterms{
+    color: #913752;
+}
+
+
+
+

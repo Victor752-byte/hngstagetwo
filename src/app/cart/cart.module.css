@@ -1,0 +1,213 @@
+.checkoutheading, .product{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.delete{
+    width: 86px;
+    color: #1C1A26;
+    font-weight: 400px;
+    font-size: 14;
+    line-height: 19.6px;
+}
+.flextext{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.product{
+    color: #1C1A26;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex1{
+    display: flex;
+}
+.space{
+    margin-right: 24px;
+}
+.checkoutsection{
+    max-width: 690px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    
+}
+.desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #1C1A26;
+}
+.oldprice{
+    color: #9B9B9B;
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+.discount{
+    background-color: #57517D;
+    padding: 4px, 0px, 4px, 0px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+.quntitycontainer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.quantity{
+    margin-right: 4px;
+}
+.num{
+    margin: 0 7px;
+}
+.minus{
+    background-color: #ADA6D2;
+    width: 20px;
+    height: 14px;
+}
+.plus{
+    background-color: #1C1A26;
+    font-size: 17px;
+    color: white;
+    width: 20px;
+    height: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.receipt{
+    width: 398px;
+    box-shadow: 0px 1px 3px 0px #0000004D;
+    box-shadow: 0px 4px 8px 3px #00000026;
+    background-color: #ffffff;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-right: 16px;
+    margin: 0px;
+}
+.receiptline{
+    margin: 0px;
+}
+.checkoutpoint{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #1C1A26;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.charges{
+    text-align: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #1C1A26;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.button{
+    border-radius: 8px;
+    background-color: #383452;
+    padding: 14px, 18px, 14px, 18px;
+    width: 100%;
+    height: 48px;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+.paymentmethod{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 154px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+.security{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+.checkoutbox{
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    display: flex;
+    max-width: 1220px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.checkoutpage{
+    margin-top: 24px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+}
+.mobile{
+    display: none;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px){
+    .desktop{
+        display: none;
+    }
+    .product, .desc, .oldprice{
+        font-size: 14px;
+    }
+    .mobile{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .quntitycontainer{
+        justify-content: center;
+    }
+    .checkoutpage{
+        background-color: #f2f2f2;
+    }
+    .checkoutsection{
+        background-color: #f2f2f2;
+    }
+    .mobileitems{
+        background-color: #ffffff;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+    .mobilecarthead{
+        background-color: #ffffff;
+        margin-bottom: 0px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .product{
+        font-size: 14px;
+    }
+}
