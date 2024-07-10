@@ -15,8 +15,9 @@ const ListItemBody=()=>{
             </div>
         <div className={styles.productlist}>
         {
-            data.map(({image, description, price, oldprice, discount, ratings})=>(
+            data.map(({image, description, price, oldprice, discount, ratings, index})=>(
                 <ListItem 
+                key={index}
                 image={image} 
                 description={description}
                 price={price}

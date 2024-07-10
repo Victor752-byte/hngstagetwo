@@ -90,6 +90,7 @@ const AddToCart = ()=>{
                 data.map((item, index)=>{
                     if(index == 2 || index == 5 || index == 6 || index == 1) {
                         return ( <SimilarProduct 
+                            key={index}
                         image={item.image} 
                         description={item.description}
                         price={item.price}
